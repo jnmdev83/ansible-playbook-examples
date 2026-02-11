@@ -9,5 +9,3 @@
         name: /home/user
         state: directory
         allow_error: false
-
-       
