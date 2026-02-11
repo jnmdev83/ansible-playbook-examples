@@ -1,0 +1,10 @@
+---
+- name: create an file
+  hosts: localhost
+  become: yes
+
+  tasks:
+    - name: creating an file
+      file:
+        name: /home/user
+        state: directory
