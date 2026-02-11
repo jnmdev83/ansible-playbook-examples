@@ -8,4 +8,4 @@
       file:
         name: /home/user
         state: directory
-        allow_error: true
+        allow_error: false
